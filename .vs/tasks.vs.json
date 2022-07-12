@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-HelloWorld",
+      "appliesTo": "BackJoon/Stage1/HelloWorld.cpp",
+      "type": "launch"
+    }
+  ]
+}
