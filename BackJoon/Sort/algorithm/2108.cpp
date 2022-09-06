@@ -49,7 +49,7 @@ int mode(){
         result = arr[N - 1];
     }
     return result;
-}//최빈값
+}
 int Range(){
     return arr[N-1] - arr[0];
 }
