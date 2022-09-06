@@ -7,7 +7,6 @@ using namespace std;
 int arr[5000001];
 int N;
 
-
 int avr(){
     double totalNumber = 0;
     for(int i =0;i<N;i++){

@@ -7,7 +7,6 @@ int main(void){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    
     int n;
     int number;
     vector<int> v;
@@ -23,7 +22,7 @@ int main(void){
     v.erase(unique(v.begin(), v.end()),v.end());
 
     for(int i = 0; i<v1.size();i++ ){
-        cout << lower_bound(v.begin(), v.end(), v1[i]) - v.begin() << ' '; // find 대신 lower bound 
+        cout << lower_bound(v.begin(), v.end(), v1[i]) - v.begin() << ' '; // find 대신 lower bound
     }
     return 0;
 }

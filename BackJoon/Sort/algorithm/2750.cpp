@@ -3,22 +3,15 @@
 
 using namespace std;
 
-bool compare(int a, int b){
-    return a < b;
-}
 int main(void){
-    int index;
-    cin >> index;
-    int a[index] = {};
-    for(int i = 0;i < index ; i++){
-        int number;
-        cin >> number;
-        a[i] = number;
+    int n;
+    cin >> n;
+    int a[n] = {};
+    for(int i = 0;i < n ; i++){
+        cin >> a[i];
     }
-    // int a[10] = {9,3,4,5,10,7,6,2,1,8};
-    int aSize = sizeof(a)/sizeof(int);
-    sort(a,a+aSize, compare);
-    for(int i=0;i<aSize;i++){
+    sort(a,a+n);
+    for(int i=0;i<n;i++){
         cout << a[i] << endl;
     }
     return 0;

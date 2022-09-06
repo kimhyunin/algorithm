@@ -18,10 +18,5 @@ int main(){
         arr[i] = score;
     }
     sort(arr, arr+N, compare);
-    // for(int i =0;i< N;i++){
-    //     cout << arr[i] ;
-    //     cout << ' ';
-    // }
-    
     cout << arr[K-1];
 }

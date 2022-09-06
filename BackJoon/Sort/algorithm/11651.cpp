@@ -29,4 +29,3 @@ int main(void){
         cout << v[i].first << ' ' << v[i].second << '\n';
     }
 }
-// sort STL을 사용하면 알아서 첫번째 기준으로 정렬하고, 동일하면 두번째 기준으로 정렬 됨!
