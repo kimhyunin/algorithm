@@ -22,5 +22,23 @@ array = ''.join(array)
 
 
 ####################################################################################
-# 문자열 여러개
+# replace 함수
+# 문자열에서 같은 단어를 변경하는 함수
+# 문자열.replace(바꿀 문자열, 바꿀단어)
+# n = n.replace(A,'*') -> A 를 *로
 
+####################################################################################
+# Counter 함수 
+from collections import Counter
+A = [1,2,3,1,1,2]
+print(Counter(A))
+
+# 원소 뽑기
+print(Counter(A).get(1)) #1의 개수
+print(Counter(A).keys()) # Key값 가져오기
+print(sorted(Counter(A).elements())) # 모든 Key와 Value를 정렬 
+
+
+#리스트에서 필요없는값 지욱
+while 0 in list:
+    list.remove(0)
