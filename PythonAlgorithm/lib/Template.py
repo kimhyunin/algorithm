@@ -42,3 +42,6 @@ print(sorted(Counter(A).elements())) # 모든 Key와 Value를 정렬
 #리스트에서 필요없는값 지욱
 while 0 in list:
     list.remove(0)
+
+# 리스트(int) -> toString()
+print(' '.join(str(e) for e in [1,2,3,4]))
