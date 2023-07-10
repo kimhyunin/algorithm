@@ -9,3 +9,4 @@ if(len(a) > 1):
         print(a[0][0].upper())
 else:
     print(a[0][0].upper())
+

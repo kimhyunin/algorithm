@@ -45,3 +45,8 @@ while 0 in list:
 
 # 리스트(int) -> toString()
 print(' '.join(str(e) for e in [1,2,3,4]))
+
+# 2차원 배열 입력 받기
+result=[list(map(str, input().split())) for _ in range(5)] # 문자열 쪼개지 않고
+result=[list(map(str, input())) for _ in range(5)] # 문자열 쪼개서
+
